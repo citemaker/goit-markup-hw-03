@@ -2,3 +2,32 @@ body {
   /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
 }
+.menu a {
+  /* font-family: 'Raleway', sans-serif */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.menu > a > span {
+  color: #2196f3;
+}
+
+.header .menu {
+  /* font-family: Roboto; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.contacts {
+  /* font-family: Roboto; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
