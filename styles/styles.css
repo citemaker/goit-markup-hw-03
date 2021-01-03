@@ -1,33 +1,109 @@
 body {
-  /* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
-}
-.menu a {
-  /* font-family: 'Raleway', sans-serif */
+  background: #ffffff;
+  color: #212121;
   font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
-.menu > a > span {
-  color: #2196f3;
+/*background: #FFFFFF; меню
+  background: #2F303A; герой
+  background: #E5E5E5; особенности
+  background: #F5F4FA; наша команда
+  background: #2F303A;футер
+
+ */
+
+/* color: #2196F3;акцент и привыделении
+color: #212121;  цвет заголовков
+color: #757575;  вторичный текст текста, телефона в меню, должности разраб
+color: #FFFFFF; текст героя и футера, button
+ */
+.header {
 }
 
-.header .menu {
-  /* font-family: Roboto; */
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+/* Шапка сайта */
+/* лого
+  нав
+  контакты */
+.logo {
+  color: #212121;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+}
+
+.logo .accent-color {
   color: #2196f3;
 }
-.contacts {
-  /* font-family: Roboto; */
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+.logo:hover {
+  color: #2196f3;
 }
+.link {
+  list-style-type: none;
+}
+a.logo,
+.link {
+  text-decoration: none;
+}
+
+a.link {
+  color: #212121;
+  list-style-type: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+/* /Шапка сайта */
+/* Герой */
+.hero {
+  background: #2f303a;
+  width: 1600px;
+  height: 600px;
+  font-family: "Roboto", sans-serif;
+}
+.hero-title {
+  color: #ffffff;
+  /* font-family: "Roboto", sans-serif; */
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.btn {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+/* / Герой */
+/* Особенности  */
+
+/* / Особенности  */
+/* Чем мы занимаемся */
+
+/* / Чем мы занимаемся */
+
+/* Наша команда */
+
+/* / Наша команда */
+
+/* Футер */
+
+/* / Футер */
