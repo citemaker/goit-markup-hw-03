@@ -19,20 +19,14 @@ color: #212121;  цвет заголовков
 color: #757575;  вторичный текст текста, телефона в меню, должности разраб
 color: #FFFFFF; текст героя и футера, button
  */
-.header {
-}
-
 /* Шапка сайта */
-/* лого
-  нав
-  контакты */
-.logo {
+лого нав контакты .logo {
   color: #212121;
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1, 19;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03em; */
 }
 
 .logo .accent-color {
@@ -41,22 +35,29 @@ color: #FFFFFF; текст героя и футера, button
 .logo:hover {
   color: #2196f3;
 }
-.link {
+/* сбрасывает точки в списках */
+.list {
   list-style-type: none;
 }
-a.logo,
-.link {
-  text-decoration: none;
-}
-
 a.link {
   color: #212121;
-  list-style-type: none;
 }
-
+.accent-color .link {
+  color: #2196f3;
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
+}
+.site-nav .logo:hover,
+.site-nav .logo:focus {
+  color: #2196f3;
+}
+.secondary .link {
+  color: #757575;
+}
+.site-nav .logo {
+  color: #212121;
 }
 /* /Шапка сайта */
 /* Герой */
@@ -68,20 +69,15 @@ a.link {
 }
 .hero-title {
   color: #ffffff;
-  /* font-family: "Roboto", sans-serif; */
-
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  /* or 136% */
-
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .btn {
   font-family: "Roboto", sans-serif;
-
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -89,12 +85,31 @@ a.link {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-
   color: #ffffff;
 }
 /* / Герой */
 /* Особенности  */
+.features-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
 
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
 /* / Особенности  */
 /* Чем мы занимаемся */
 
@@ -106,4 +121,4 @@ a.link {
 
 /* Футер */
 
-/* / Футер */
+/* / Футер */ ;
