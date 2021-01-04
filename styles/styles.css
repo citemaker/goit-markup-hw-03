@@ -67,12 +67,11 @@ a.link {
   color: var(--accent-color);
 }
 
-,
-,
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+
 .site-nav .logo:hover,
 .site-nav .logo:focus {
   color: var(--accent-color);
@@ -96,7 +95,7 @@ a.link {
   height: 600px;
   font-family: "Roboto", sans-serif;
 }
-.hero-title {
+.hero .title {
   color: var(--secondary-accent-color);
   /* font-weight: 900;
   font-size: 44px;
@@ -119,7 +118,7 @@ a.link {
 }
 /* / Герой */
 /* Особенности  */
-.features-title {
+.features .title {
   /* font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -128,7 +127,7 @@ a.link {
   letter-spacing: 0.03em;
   text-transform: uppercase; */
 }
-.features-text {
+.features .text {
   /* font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -189,15 +188,12 @@ a.link {
 }
 
 .footer address {
-  font-family: Roboto;
+  /* font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
+  letter-spacing: 0.03em; */
   color: var(--secondary-accent-color);
 }
 .footer .contacts a {
@@ -206,10 +202,7 @@ a.link {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
 }
 /* / Футер */ ;
