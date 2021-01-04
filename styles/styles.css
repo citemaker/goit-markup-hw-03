@@ -86,6 +86,7 @@ a.link {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  background: #2196f3;
 }
 /* / Герой */
 /* Особенности  */
@@ -147,5 +148,17 @@ a.link {
 /* / Наша команда */
 
 /* Футер */
+.footer {
+  background: #2f303a;
+}
+.logo {
+  color: #ffffff;
+}
 
+.footer address {
+  color: #ffffff;
+}
+.footer .contacts a {
+  color: #ffffff;
+}
 /* / Футер */ ;
