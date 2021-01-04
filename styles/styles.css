@@ -58,6 +58,17 @@ a.link {
 .accent-color .link {
   color: var(--accent-color);
 }
+.accent-color .link:hover,
+.accent-color .link:focus {
+  color: var(--text-color);
+}
+.secondary .link:hover,
+.secondary .link:focus {
+  color: var(--accent-color);
+}
+
+,
+,
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -66,6 +77,11 @@ a.link {
 .site-nav .logo:focus {
   color: var(--accent-color);
 }
+/* акцент на текущей странице */
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .secondary .link {
   color: var(--text-color);
 }
