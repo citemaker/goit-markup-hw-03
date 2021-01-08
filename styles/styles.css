@@ -10,7 +10,9 @@
   color: #757575;  вторичный текст текста, телефона в меню, должности разраб
   color: #FFFFFF; текст героя и футера, button
  */
-
+/* Roboto 500  заголовки текста
+/* Roboto 400  текст серый
+ */
 :root {
   --accent-color: #2196f3;
   --title-color: #212121;
@@ -22,11 +24,11 @@
 }
 
 body {
-  background: var(--bg-primary);
+  /* background: var(--bg-primary); */
   color: var(--title-color);
-  font-style: normal;
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
 /* Шапка сайта */
@@ -200,3 +202,12 @@ a.link {
 /* / Футер */
 
 /* =============Portfolio Page========== */
+.filter .button {
+  color: var(--title-color);
+  background: var(--bg-second);
+}
+
+.filter .button:hover {
+  color: var(--secondary-accent-color);
+  background: var(--accent-color);
+}
