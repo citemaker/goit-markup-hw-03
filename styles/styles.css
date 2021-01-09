@@ -38,9 +38,10 @@ body {
 .logo {
   color: var(--title-color);
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 
 .logo .accent-color {
@@ -73,6 +74,7 @@ a.link {
 
 .text.link {
   color: var(--text-color);
+  text-decoration: none;
 }
 .contact-nav .text.link:hover {
   color: var(--accent-color);
@@ -98,9 +100,10 @@ a.link {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
 }
 .btn {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -110,7 +113,7 @@ a.link {
 /* / Герой */
 /* Особенности  */
 .features .title {
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -151,7 +154,7 @@ a.link {
 }
 .logo.footer {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--secondary-accent-color);
@@ -165,6 +168,7 @@ a.link {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  text-decoration: none;
 }
 .contacts .address {
   color: var(--secondary-accent-color);
@@ -172,6 +176,12 @@ a.link {
 /* / Футер */
 
 /* =============Portfolio Page========== */
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  text-align: center;
+}
 .filter .button {
   color: var(--title-color);
   background: var(--bg-second);
@@ -180,4 +190,22 @@ a.link {
 .filter .button:hover {
   color: var(--secondary-accent-color);
   background: var(--accent-color);
+}
+.portfolio-gallery .title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.portfolio-gallery .list {
+  color: var(--title-color);
+  text-decoration: none;
+}
+.portfolio-gallery .text {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
