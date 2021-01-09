@@ -93,22 +93,20 @@ a.link {
 }
 .hero .title {
   color: var(--secondary-accent-color);
-  /* font-weight: 900;
+  font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  text-align: center;
+  line-height: 1, 36;
   letter-spacing: 0.06em;
-  text-transform: uppercase; */
+  text-transform: uppercase;
 }
 .btn {
-  /* font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em; */
+  letter-spacing: 1.88;
   color: var(--secondary-accent-color);
   background: var(--accent-color);
 }
@@ -116,45 +114,36 @@ a.link {
 /* Особенности  */
 .features .title {
   font-weight: bold;
-  font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 .features .text {
-  font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
 /* / Особенности  */
 
 /* Чем мы занимаемся */
+
 /* / Чем мы занимаемся */
 
 /* Наша команда */
 .section .title {
-  /* font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 42px;
-  letter-spacing: 0.03em;
-  text-align: center; */
+  line-height: 1.17;
 }
+
 .team .title {
-  /* font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 19px;
-  letter-spacing: 0.03em;
-  text-align: center; */
+  line-height: 1.19;
 }
 .team .text {
-  /* font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0.03em;
-  text-align: center; */
+  line-height: 1.19;
   color: var(--text-color);
 }
 /* / Наша команда */
@@ -164,29 +153,24 @@ a.link {
   background: var(--bg-accent);
 }
 .logo.footer {
-  /* font-family: Raleway;
+  font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em; */
+  line-height: 1.19;
   color: var(--secondary-accent-color);
 }
 
 .footer address {
-  /* font-family: Roboto;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em; */
+  line-height: 1.71;
   color: var(--secondary-accent-color);
 }
 .footer .contacts a {
-  font-family: Roboto;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--text-color);
+}
+.contacts .address {
+  color: var(--secondary-accent-color);
 }
 /* / Футер */
 
