@@ -26,9 +26,10 @@
 body {
   /* background: var(--bg-primary); */
   color: var(--title-color);
-
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
   font-style: normal;
+  letter-spacing: 0.03em;
 }
 
 /* Шапка сайта */
@@ -47,26 +48,26 @@ body {
 .logo .accent-color {
   color: var(--accent-color);
 }
-
+/* .site-nav .logo {
+  color: var(--title-color);
+} */
 /* Site nav */
-/* 
-.site-nav .link {
-  color: var(--accent-color);
 
+.site-nav .link {
   font-weight: 500;
-  font-size: 15px;
-  line-height: 1.2;
+  font-size: 14px;
+  line-height: 1.14;
   text-decoration: none;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--title-text-color);
+  color: var(--accent-color);
 }
 
 .site-nav .link.current {
-  color: var(--title-text-color);
-} */
+  color: var(--accent-color);
+}
 /* сбрасывает точки в списках */
 .list {
   list-style-type: none;
@@ -77,35 +78,25 @@ a.link {
 .accent-color .link {
   color: var(--accent-color);
 }
-.accent-color .link:hover,
-.accent-color .link:focus {
-  color: var(--text-color);
-}
-.secondary .link:hover,
-.secondary .link:focus {
-  color: var(--accent-color);
-}
 
-.site-nav .link:hover,
+/* .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-}
+} */
 
-.site-nav .logo:hover,
+/* .site-nav .logo:hover,
 .site-nav .logo:focus {
   color: var(--accent-color);
-}
+} */
 /* акцент на текущей странице */
 .site-nav .link.current {
   color: var(--accent-color);
 }
 
-.secondary .link {
+.text.link {
   color: var(--text-color);
 }
-.site-nav .logo {
-  color: var(--title-color);
-}
+
 /* /Шапка сайта */
 /* Герой */
 .hero {
@@ -138,20 +129,15 @@ a.link {
 /* / Герой */
 /* Особенности  */
 .features .title {
-  /* font-family: Roboto;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase; */
+  line-height: 1, 14;
+  text-transform: uppercase;
 }
 .features .text {
-  /* font-family: Roboto;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px; 
-  letter-spacing: 0.03em; */
-
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
   color: var(--text-color);
 }
 /* / Особенности  */
@@ -191,7 +177,7 @@ a.link {
 .footer {
   background: var(--bg-accent);
 }
-.logo {
+.logo.footer {
   /* font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
