@@ -40,7 +40,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
 }
 
 .logo .accent-color {
@@ -95,18 +95,15 @@ a.link {
   color: var(--secondary-accent-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 .btn {
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 1.88;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   color: var(--secondary-accent-color);
   background: var(--accent-color);
 }
