@@ -15,23 +15,24 @@
 <body>
         <!--  Шапка сайта -->
         <header class="header">
-            <nav class="site-nav list">
-                <a href="/" class="logo"><span class="accent-color">Web</span>Studio</a>
-                <ul class="site-nav list">
-                    <li><a href="./index.html" class="link current">Студия</a></li>
-                    <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-                    <li><a href="./contacts.html" class="link">Контакты</a></li>
+            <div class="container">
+                <nav class="site-nav list">
+                    <a href="/" class="logo"><span class="accent-color">Web</span>Studio</a>
+                    <ul class="site-nav list">
+                        <li><a href="./index.html" class="link current">Студия</a></li>
+                        <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+                        <li><a href="./contacts.html" class="link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="contact-nav list">
+                    <li>
+                        <a href="mailto:" class="text link">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:+380961111111" class="text link">+38 096 111 11 11</a>
+                    </li>
                 </ul>
-            </nav>
-            <ul class="contact-nav list">
-                <li>
-                    <a href="mailto:" class="text link">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a href="tel:+380961111111" class="text link">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        
+            </div>
         </header>
         <!--  / Шапка сайта -->
     <main>
@@ -43,7 +44,8 @@
         <!-- / Герой -->
         <!-- Особенности -->
         <section>
-            <h2>features</h2>   <!--заголовок нужно спрятать-->
+					<div class="container">
+            <h2 class="unseen">features</h2>   <!--заголовок нужно спрятать-->
             <ul class="features list">
                 <li>
                     <h3 class="title">Внимание к деталям</h3>
@@ -71,14 +73,16 @@
                     что реализация плановых заданий.
                     </p>
                 </li>
-            </ul>
+						</ul>
+					</div>
         </section>
             <!-- / Особенности -->
 
             <!-- Чем мы занимаемся -->
         <section class="section">
+					<div class="container">
             <h2 class="title">Чем мы занимаемся</h2>
-            <ul class="list">
+            <ul class="what-we-do list">
                 <li>
                     <img src="./images/index-img/work1.png" alt="Составление структуры сайта" width="370">
                 </li>
@@ -88,11 +92,13 @@
                 <li>
                     <img src="./images/index-img/work3.png" alt="Подбор цветов" width="370">
                 </li>
-            </ul>
+						</ul>
+					</div>
         <!-- / Чем мы занимаемся -->
         </section>
         <!-- Наша команда -->
         <section class="section">
+					<div class="container">
             <h2 class="title">Наша команда</h2>
             <ul class="team list">
                 <li>
@@ -115,13 +121,15 @@
                     <h3 class="title">Михайл Ермаков</h3>
                     <p class="text">Ul Designer</p>
                 </li>
-            </ul>
+						</ul>
+					</div>
         </section>
         <!-- / Наша команда -->
         <!-- Футер -->
     </main>
     <!--  Футер  -->
     <footer class="footer">
+			<div class="container">
 
                 <a href="/" class="logo footer"><span class="accent-color">Web</span>Studio</a>
                 
@@ -136,7 +144,7 @@
                 <a href="tel:+380991111111" class="text">+38 099 111 11 11</a>
             </li>
         </ul>
-    
+		</div>
     </footer>
     <!-- / Футер -->
 
