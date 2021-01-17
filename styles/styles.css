@@ -44,13 +44,11 @@ body {
 
   outline: 2px solid tomato;
 }
+
 /* отступы после секции */
-.hero,
-.features,
-.section {
+.indent {
   margin-bottom: 94px;
 }
-
 .logo {
   color: var(--title-color);
   font-family: "Raleway", sans-serif;
@@ -284,7 +282,19 @@ a.link {
   background: var(--accent-color);
 }
 
+.portfolio-gallery h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.filter.list {
+  margin-bottom: 34px;
+}
+
 .gallery .gallery-title {
+  margin-top: 20px;
+  margin-bottom: 0;
+
   color: var(--title-color);
   font-style: normal;
   font-weight: 700;
@@ -294,6 +304,9 @@ a.link {
 }
 
 .gallery .gallery-text {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
