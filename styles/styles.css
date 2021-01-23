@@ -35,31 +35,6 @@ body {
 .header {
   background: var(--secondary-accent-color);
 }
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-
-  outline: 2px solid tomato;
-}
-/* сбрасывает точки в списках */
-.list {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-/* main-nav */
-.main-nav {
-  display: flex;
-  align-items: center;
-}
-
-/* отступы после секции */
-.indent {
-  margin-bottom: 94px;
-}
 .logo {
   color: var(--title-color);
   font-family: "Raleway", sans-serif;
@@ -74,39 +49,8 @@ body {
 }
 
 /* Site nav */
-.site-nav {
-  display: flex;
-  /* margin-left: 93px; */
-}
 
-.site-nav .item {
-  margin-left: 93px;
-  outline: 1px solid green;
-}
-
-.site-nav .item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.site-nav .link {
-  display: block;
-
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  font-weight: 500;
-  line-height: 1.14;
-  text-decoration: none;
-}
-
-.contact-nav {
-  display: flex;
-  margin-right: auto;
-}
-
-.contact-nav .item:not(:last-child) {
-  margin-right: 50px;
-}
+.site-nav .link,
 .contact-nav .link {
   font-weight: 500;
   line-height: 1.14;
@@ -123,7 +67,10 @@ body {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-
+/* сбрасывает точки в списках */
+.list {
+  list-style-type: none;
+}
 a.link {
   color: var(--title-color);
   text-decoration: none;
@@ -144,32 +91,19 @@ a.link {
 /* /Шапка сайта */
 /* Герой */
 .hero {
-  min-height: 600px;
   font-family: "Roboto", sans-serif;
   background: var(--bg-accent);
-  text-align: center;
 }
 .hero .title {
-  margin-top: 0;
-  margin-bottom: 30px;
-
+  color: var(--secondary-accent-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  color: var(--secondary-accent-color);
-
-  outline: 1px solid green;
 }
-/* кнопка */
 .btn {
-  min-width: 200px;
-  border: 1px;
-  border-radius: 6px; /* Уточнить скругление*/
-  padding: 11px 32px;
-
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -179,31 +113,18 @@ a.link {
 }
 /* / Герой */
 /* Особенности  */
-.unseen {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 .features .title {
-  margin-top: 0;
-  margin-bottom: 10px;
-
   font-size: 14px;
   font-weight: 700;
   line-height: 1.17;
   text-transform: uppercase;
-
-  outline: 1px solid green;
 }
 .features .text {
-  margin-top: 0;
-  margin-bottom: 0;
-
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-
 /* / Особенности  */
 
 /* Чем мы занимаемся */
@@ -211,25 +132,15 @@ a.link {
 /* / Чем мы занимаемся */
 
 /* Наша команда */
-
 .section .title {
-  margin-top: 0;
-  margin-bottom: 0;
-
   font-weight: 700;
   font-style: normal;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-
-  outline: 1px solid green;
-  margin-bottom: 50px;
 }
 
 .team .title {
-  margin-top: 30px;
-  margin-bottom: 10px;
-
   font-style: normal;
   font-size: 16px;
   font-weight: 500;
@@ -237,9 +148,6 @@ a.link {
   text-align: center;
 }
 .team .text {
-  margin-top: 0;
-  margin-bottom: 0;
-
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -250,14 +158,9 @@ a.link {
 
 /* Футер */
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-
   background: var(--bg-accent);
 }
 .logo.footer {
-  padding: 0;
-
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -271,11 +174,6 @@ a.link {
   color: var(--secondary-accent-color);
   font-style: normal;
   font-weight: 400;
-}
-.address p {
-  margin: 0;
-  padding: 0;
-  margin-top: 20px;
 }
 .footer .contacts a {
   color: var(--text-color);
@@ -296,10 +194,6 @@ a.link {
 
 /* =============Portfolio Page========== */
 .button {
-  border: 1px solid #eeeeee;
-  border-radius: 6px; /* Уточнить скругление*/
-  padding: 6px 22px;
-
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -319,19 +213,7 @@ a.link {
   background: var(--accent-color);
 }
 
-.portfolio-gallery h1 {
-  margin: 0;
-  padding: 0;
-}
-
-.filter.list {
-  margin-bottom: 34px;
-}
-
 .gallery .gallery-title {
-  margin-top: 20px;
-  margin-bottom: 0;
-
   color: var(--title-color);
   font-style: normal;
   font-weight: 700;
@@ -341,9 +223,6 @@ a.link {
 }
 
 .gallery .gallery-text {
-  margin-top: 0;
-  margin-bottom: 0;
-
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
