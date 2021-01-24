@@ -54,8 +54,6 @@ body {
 
 .logo {
   display: block;
-  padding-top: 24px;
-  padding-bottom: 24px;
 
   color: var(--title-color);
   font-family: "Raleway", sans-serif;
@@ -234,7 +232,7 @@ a.link {
 /* / Чем мы занимаемся */
 
 /* Наша команда */
-.section.team {
+.section {
   margin-bottom: 94px;
 }
 
@@ -281,11 +279,10 @@ a.link {
 
 /* Футер */
 .footer {
-  padding-top: 60px;
   background: var(--bg-accent);
 }
 .logo.footer {
-  margin-bottom: 20px;
+  padding-top: 60px;
 
   font-family: Raleway;
   font-style: normal;
@@ -331,7 +328,8 @@ a.link {
   margin-bottom: 94px;
 }
 
-.portfolio-gallery h1 {
+.portfolio-gallery h1,
+.gallery.list {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -374,12 +372,8 @@ a.link {
 }
 /* флекс-контейнер */
 .gallery.list {
-  margin-top: 0;
-  margin-bottom: 0;
-
   display: flex;
   flex-wrap: wrap;
-  background-color: teal;
   margin: -15px;
 }
 
@@ -387,8 +381,6 @@ a.link {
 .gallery.list .item {
   width: 380px;
   margin: 15px;
-
-  background-color: tomato;
 }
 
 .gallery .gallery-title {
