@@ -368,7 +368,7 @@ a.link {
 
 .filter .button:hover,
 .filter .button:focus {
-  border-color: var (var(--accent-color));
+  border-color: var(--accent-color);
   color: var(--secondary-accent-color);
   background: var(--accent-color);
 }
