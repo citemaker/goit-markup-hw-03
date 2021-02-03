@@ -30,6 +30,13 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
 }
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
 
 /* Шапка сайта */
 .header {
@@ -49,6 +56,11 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .logo {
@@ -144,7 +156,7 @@ a.link {
 /* Герой */
 .hero {
   min-height: 600px;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 
   font-family: "Roboto", sans-serif;
   background: var(--bg-accent);
@@ -183,18 +195,19 @@ a.link {
 /* / Герой */
 /* Особенности  */
 .features {
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
+  /* padding-top: 94px; */
+  /* padding-bottom: 94px; */
 }
 .features.list {
   display: flex;
 }
 
-/* h2 {
-  overflow: hidden;
-  margin-top: 0;
-  margin-bottom: 0;
-} */
-.features .title {
+.features h2 {
+  /* visibility: hidden; */
+  display: none;
+}
+.features.list .title {
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -215,9 +228,9 @@ a.link {
 /* / Особенности  */
 
 /* Чем мы занимаемся */
-.section-what-me-do {
+/* .section-what-me-do {
   margin-bottom: 94px;
-}
+} */
 
 .what-we-do.list {
   display: flex;
@@ -229,9 +242,9 @@ a.link {
 /* / Чем мы занимаемся */
 
 /* Наша команда */
-.section {
+/* .section {
   margin-bottom: 94px;
-}
+} */
 
 .team.list {
   display: flex;
