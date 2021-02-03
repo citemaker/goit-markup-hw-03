@@ -20,6 +20,10 @@
   --bg-accent: #2f303a;
   --bg-primary: #e5e5e5;
   --bg-second: #f5f4fa;
+  --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    --card-set-gap: 30px;
+}
 }
 
 body {
@@ -33,9 +37,16 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
   margin: 0;
   padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .link {
@@ -338,7 +349,7 @@ a.link {
 
 /* =============Portfolio Page========== */
 .portfolio-gallery {
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 
 .portfolio-gallery h1,
@@ -384,21 +395,39 @@ a.link {
   color: var(--secondary-accent-color);
   background: var(--accent-color);
 }
+
+/* CARD */
+.item * {
+  /* outline: 1px solid tomato; */
+}
+
+.card {
+  border: 1px rgba(238, 238, 238, 1);
+  /* box-shadow: var(--card-shadow);
+  border-radius: 4px; */
+  overflow: hidden;
+}
+.card-content {
+  padding: 20px 24px;
+}
 /* флекс-контейнер */
 .gallery.list {
   display: flex;
   flex-wrap: wrap;
+   margin-left: calc(-1 * var(--card-set-gap));
+  margin-top: calc(-1 * var(--card-set-gap));
   margin: -15px;
 }
 
 /* флекс-элемент */
 .gallery.list .item {
-  width: 380px;
-  margin: 15px;
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
 }
 
 .gallery .gallery-title {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 
   color: var(--title-color);
   font-style: normal;
@@ -410,7 +439,7 @@ a.link {
 
 .gallery .gallery-text {
   margin-top: 0;
-  margin-bottom: 0;
+  /* margin-bottom: 20px; */
 
   font-style: normal;
   font-weight: 400;
