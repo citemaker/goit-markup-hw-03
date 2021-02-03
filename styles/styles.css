@@ -22,8 +22,7 @@
   --bg-second: #f5f4fa;
   --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    --card-set-gap: 30px;
-}
+  --card-set-gap: 30px;
 }
 
 body {
@@ -34,6 +33,7 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
 }
+
 h1,
 h2,
 h3,
@@ -129,7 +129,6 @@ img {
 
 .site-nav .link,
 .contact-nav .link {
-  /* display: block; */
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -170,7 +169,6 @@ a.link {
 /* Герой */
 .hero {
   min-height: 600px;
-  /* margin-bottom: 94px; */
 
   font-family: "Roboto", sans-serif;
   background: var(--bg-accent);
@@ -208,17 +206,11 @@ a.link {
 }
 /* / Герой */
 /* Особенности  */
-.features {
-  /* margin-bottom: 94px; */
-  /* padding-top: 94px; */
-  /* padding-bottom: 94px; */
-}
 .features.list {
   display: flex;
 }
 
 .features h2 {
-  /* visibility: hidden; */
   display: none;
 }
 .features.list .title {
@@ -242,9 +234,6 @@ a.link {
 /* / Особенности  */
 
 /* Чем мы занимаемся */
-/* .section-what-me-do {
-  margin-bottom: 94px;
-} */
 
 .what-we-do.list {
   display: flex;
@@ -256,10 +245,11 @@ a.link {
 /* / Чем мы занимаемся */
 
 /* Наша команда */
-/* .section {
-  margin-bottom: 94px;
-} */
 
+.card-team {
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+}
 .team.list {
   display: flex;
   justify-content: space-between;
@@ -348,9 +338,6 @@ a.link {
 /* / Футер */
 
 /* =============Portfolio Page========== */
-.portfolio-gallery {
-  /* margin-bottom: 94px; */
-}
 
 .portfolio-gallery h1,
 .gallery.list {
@@ -397,14 +384,9 @@ a.link {
 }
 
 /* CARD */
-.item * {
-  /* outline: 1px solid tomato; */
-}
 
 .card {
   border: 1px rgba(238, 238, 238, 1);
-  /* box-shadow: var(--card-shadow);
-  border-radius: 4px; */
   overflow: hidden;
 }
 .card-content {
@@ -414,7 +396,7 @@ a.link {
 .gallery.list {
   display: flex;
   flex-wrap: wrap;
-   margin-left: calc(-1 * var(--card-set-gap));
+  margin-left: calc(-1 * var(--card-set-gap));
   margin-top: calc(-1 * var(--card-set-gap));
   margin: -15px;
 }
@@ -439,7 +421,6 @@ a.link {
 
 .gallery .gallery-text {
   margin-top: 0;
-  /* margin-bottom: 20px; */
 
   font-style: normal;
   font-weight: 400;
