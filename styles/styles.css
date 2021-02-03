@@ -342,6 +342,7 @@ a.link {
 .gallery.list {
   margin-top: 0;
   margin-bottom: 0;
+  display: none;
 }
 
 .filter.list {
