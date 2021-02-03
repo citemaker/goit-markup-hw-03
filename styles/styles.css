@@ -38,6 +38,9 @@ h4 {
   padding: 0;
 }
 
+.link {
+  display: block;
+}
 /* Шапка сайта */
 .header {
   background: var(--secondary-accent-color);
@@ -115,7 +118,7 @@ h4 {
 
 .site-nav .link,
 .contact-nav .link {
-  display: block;
+  /* display: block; */
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -289,11 +292,11 @@ a.link {
 
 /* Футер */
 .footer {
+  padding-top: 60px;
+
   background: var(--bg-accent);
 }
 .logo.footer {
-  padding-top: 60px;
-
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
