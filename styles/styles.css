@@ -404,6 +404,7 @@ img {
 
 /* CARD */
 .card {
+  width: 370px;
   border: 1px rgba(238, 238, 238, 1);
   overflow: hidden;
   text-decoration: none;
