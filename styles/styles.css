@@ -67,7 +67,7 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -94,7 +94,6 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
 }
 
 .nav {
@@ -120,9 +119,9 @@ img {
 
   margin-top: 0;
   margin-bottom: 0;
-
   margin-left: auto;
 }
+
 .contact-nav .item + .item {
   margin-left: 50px;
 }
@@ -134,6 +133,7 @@ img {
 
   font-weight: 500;
   line-height: 1.14;
+  color: var(--title-color);
   text-decoration: none;
 }
 
@@ -148,11 +148,6 @@ img {
   color: var(--accent-color);
 }
 
-a.link {
-  color: var(--title-color);
-  text-decoration: none;
-}
-
 .text.link {
   font-weight: 500;
   line-height: 1.14;
@@ -164,11 +159,14 @@ a.link {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-
 /* /Шапка сайта */
+
 /* Герой */
 .hero {
   min-height: 600px;
+  padding-top: 200px;
+  padding-left: 252px;
+  padding-right: 252px;
 
   font-family: "Roboto", sans-serif;
   background: var(--bg-accent);
@@ -177,9 +175,6 @@ a.link {
 .hero .title {
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 200px;
-  padding-left: 252px;
-  padding-right: 252px;
 
   color: var(--secondary-accent-color);
   font-weight: 900;
@@ -205,14 +200,24 @@ a.link {
   background: var(--accent-color);
 }
 /* / Герой */
+
 /* Особенности  */
 .features.list {
   display: flex;
 }
 
-.features h2 {
+.features.list .item + .item {
+  margin-left: 30px;
+}
+
+.features.list .item {
+  width: 270px;
+}
+
+.title-none {
   display: none;
 }
+
 .features.list .title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -222,6 +227,7 @@ a.link {
   line-height: 1.17;
   text-transform: uppercase;
 }
+
 .features .text {
   margin-top: 0;
   margin-bottom: 0;
@@ -234,26 +240,28 @@ a.link {
 /* / Особенности  */
 
 /* Чем мы занимаемся */
-
 .what-we-do.list {
   display: flex;
   justify-content: space-between;
 }
 
-/* .what-we-do .item + .item {
-} */
 /* / Чем мы занимаемся */
 
 /* Наша команда */
+.team-page {
+  background-color: var(--bg-second);
+}
 
 .card-team {
   box-shadow: var(--card-shadow);
   overflow: hidden;
 }
+
 .team.list {
   display: flex;
   justify-content: space-between;
 }
+
 .section .title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -264,6 +272,7 @@ a.link {
   line-height: 1.17;
   text-align: center;
 }
+
 .team.list > li > img {
   margin-bottom: 50px;
 }
@@ -278,6 +287,7 @@ a.link {
   line-height: 1.19;
   text-align: center;
 }
+
 .team .text {
   margin-top: 0;
   margin-bottom: 30px;
@@ -292,11 +302,16 @@ a.link {
 /* / Наша команда */
 
 /* Футер */
-.footer {
-  padding-top: 60px;
+.contacts.list {
+  padding: 0;
+  margin: 0;
+}
 
+.footer.footer-page {
+  padding-top: 60px;
   background: var(--bg-accent);
 }
+
 .logo.footer {
   font-family: Raleway;
   font-style: normal;
@@ -306,44 +321,46 @@ a.link {
   color: var(--secondary-accent-color);
 }
 
-.footer .address p {
+.address {
   margin-top: 20px;
-  margin-bottom: 0;
 
   line-height: 1.71;
   color: var(--secondary-accent-color);
   font-style: normal;
   font-weight: 400;
-}
-.contacts.list {
-  padding: 0;
-  margin: 0;
-}
-
-.footer .contacts a {
-  color: var(--text-color);
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.71;
-  text-decoration: none;
-}
-.contacts.list a.text:hover,
-.contacts.list a.text:focus {
-  color: var(--accent-color);
 }
 
 .contacts .address {
   color: var(--secondary-accent-color);
 }
+
+.footer-contact-item {
+  margin-top: 9px;
+}
+
+.footer .contacts .text {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  text-decoration: none;
+
+  color: var(--text-color);
+}
+
+.contacts.list .text:hover,
+.contacts.list .text:focus {
+  color: var(--accent-color);
+}
 /* / Футер */
 
 /* =============Portfolio Page========== */
+.section.portfolio-gallery {
+  border: 1px rgba(238, 238, 238, 1);
+}
 
-.portfolio-gallery h1,
 .gallery.list {
   margin-top: 0;
   margin-bottom: 0;
-  display: none;
 }
 
 .filter.list {
@@ -357,6 +374,7 @@ a.link {
 .filter.list .item + .item {
   margin-left: 8px;
 }
+
 .button {
   display: inline-block;
   border-radius: 4px;
@@ -370,6 +388,7 @@ a.link {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 .button.list {
   color: var(--title-color);
   background: var(--bg-second);
@@ -384,14 +403,16 @@ a.link {
 }
 
 /* CARD */
-
 .card {
   border: 1px rgba(238, 238, 238, 1);
   overflow: hidden;
+  text-decoration: none;
 }
+
 .card-content {
   padding: 20px 24px;
 }
+
 /* флекс-контейнер */
 .gallery.list {
   display: flex;
@@ -409,8 +430,6 @@ a.link {
 }
 
 .gallery .gallery-title {
-  /* margin-top: 20px; */
-
   color: var(--title-color);
   font-style: normal;
   font-weight: 700;
