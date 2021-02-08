@@ -242,6 +242,9 @@ img {
 /* / Особенности  */
 
 /* Чем мы занимаемся */
+.section-what-me-do {
+  padding-top: 0;
+}
 .what-we-do.list {
   display: flex;
   justify-content: space-between;
@@ -407,11 +410,13 @@ img {
 /* CARD */
 .card.link {
   width: 370px;
-  border: 1px rgba(238, 238, 238, 1);
   overflow: hidden;
   text-decoration: none;
-
-  /* outline: 1px solid tomato; */
+}
+.card-thumb {
+  border-left: 1px solid rgba(238, 238, 238, 1);
+  border-top: 1px solid rgba(238, 238, 238, 1);
+  border-right: 1px solid rgba(238, 238, 238, 1);
 }
 
 .card-content {
